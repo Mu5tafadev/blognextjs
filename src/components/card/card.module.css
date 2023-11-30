@@ -1,0 +1,53 @@
+.card {
+    animation: slid;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+.card .pics {
+
+    background-color: #D9D9D9;
+}
+
+.title {
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #A6A6A6;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: #0000FF;
+
+}
+
+.footer span {
+    font-size: 14px;
+    color: #A6A6A6;
+}
+
+.pics img {
+    object-fit: cover;
+    width: 100%;
+}
+
+@keyframes slid {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
